@@ -52,13 +52,10 @@ def index():
                 response = api_response(request)
                 return jsonify(response)
 
-        
-            
-
         except Exception as e:
             print(e)
             error = {"error": "Something went wrong! Please try again"}
-            return render_template("404.html", error)
+            return render_template("404.html", error=error)
     else:
         return render_template("index.html")
 

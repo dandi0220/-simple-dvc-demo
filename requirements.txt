@@ -4,13 +4,11 @@
 #third party packages
 dvc
 dvc[gdrive]
-
 scikit-learn
 pandas
 pytest
 tox
-
 Flask
-gunicore
+gunicorn
 
 

@@ -87,7 +87,6 @@ def api_response(dict_request):
         response = {"the_exected_cols": get_schema().keys(), "response": str(e) }
         return response
 
-
     except Exception as e:
         response = {"response": str(e) }
         return response

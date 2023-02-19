@@ -1,5 +1,3 @@
-
-
 schema: '2.0'
 stages:
   load_data:
@@ -44,19 +42,9 @@ stages:
       md5: 4bccf4d668cdc60115de42ba74d416ab
       size: 74913
     - path: src/train_and_evaluate.py
-      md5: 6f4add34d08b4be577c4cf184b004cf1
-      size: 2673
+      md5: 11f1a6f757974d640e78469f22bafbce
+      size: 3893
     params:
       params.yaml:
-        estimators.ElasticNet.params.alpha: 0.88
-        estimators.ElasticNet.params.l1_ratio: 0.89
-    outs:
-    - path: report/params.json
-      md5: 0568f34313ba7c5e55128b75dbcbee5c
-      size: 46
-    - path: report/scores.json
-      md5: ac89e037063ee307b6d23c8ef0583610
-      size: 100
-    - path: saved_models/model.joblib
-      md5: 2925d8336689efe3d96c5fe86bb7cfe0
-      size: 1406
+        estimators.ElasticNet.params.alpha: 0.5
+        estimators.ElasticNet.params.l1_ratio: 0.5

@@ -9,7 +9,7 @@
   * [Installation](#installation)
   * [Deployement on Heroku](#deployement-on-heroku)
   * [Directory Tree](#directory-tree)
-  * [Bug/Feature Request](#bugfeaturerequest)
+  * [Bug/Feature Request](#bug/feature-request)
   * [Technologies Used](#technologies-used)
   * [Credits](#credits)
 
